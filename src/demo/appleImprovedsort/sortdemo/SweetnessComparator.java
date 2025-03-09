@@ -1,3 +1,5 @@
+package demo.appleImprovedsort.sortdemo;
+
 import java.util.Comparator;
 
 public class SweetnessComparator implements Comparator<AppleImproved> {

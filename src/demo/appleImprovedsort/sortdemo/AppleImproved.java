@@ -1,3 +1,5 @@
+package demo.appleImprovedsort.sortdemo;
+
 public class AppleImproved implements Comparable<AppleImproved> {
     private String name;
     private int price;
