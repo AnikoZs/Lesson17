@@ -25,9 +25,9 @@ class AppleWeightComparator implements Comparator<Apple> {
 public class AppleComparatorExample {
     public static void main(String[] args) {
         List<Apple> apples = createAppleList();
-        printApples("Antes de ordenar: ", apples);
+        printApples("Before sorting: ", apples);
         sortApplesByWeight(apples);
-        printApples("Después de ordenar por peso: ", apples);
+        printApples("After sorting by weight: ", apples);
     }
 
     private static List<Apple> createAppleList() {

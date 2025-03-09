@@ -20,7 +20,13 @@ class Person {
 }
 
 public class TestApp {
-    public static void main() {
+
+    public static void main(String[] args) {
+        testSort();
+    }
+
+    public static void testSort()
+    {
         ArrayList<Person> people = new ArrayList<>();
         people.add(new Person("John", 30));
         people.add(new Person("Alice", 24));
